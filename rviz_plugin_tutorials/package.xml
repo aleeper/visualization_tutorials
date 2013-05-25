@@ -1,0 +1,24 @@
+<package>
+  <name>rviz_plugin_tutorials</name>
+  <version>0.7.5</version>
+  <description>Tutorials showing how to write plugins for RViz.</description>
+  <maintainer email="hersh@willowgarage.com">Dave Hershberger</maintainer>
+  <maintainer email="gossow@willowgarage.com">David Gossow</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/rviz_plugin_tutorials</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Dave Hershberger</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rviz</build_depend>
+  <run_depend>rviz</run_depend>
+
+  <export>
+    <rosdoc config="${prefix}/rosdoc.yaml"/>
+    <rviz plugin="${prefix}/plugin_description.xml"/>
+  </export>
+</package>

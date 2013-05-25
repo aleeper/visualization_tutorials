@@ -1,0 +1,23 @@
+<package>
+  <name>rviz_python_tutorial</name>
+  <version>0.7.5</version>
+  <description>Tutorial demonstrating the embedding of rviz visualization in a python program.</description>
+  <maintainer email="hersh@willowgarage.com">Dave Hershberger</maintainer>
+  <maintainer email="gossow@willowgarage.com">David Gossow</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/rviz_python_tutorial</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Dave Hershberger</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rviz</build_depend>
+  <run_depend>rviz</run_depend>
+
+  <export>
+    <rosdoc config="${prefix}/rosdoc.yaml"/>
+  </export>
+</package>

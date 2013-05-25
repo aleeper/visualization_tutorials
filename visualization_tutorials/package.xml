@@ -1,0 +1,29 @@
+<package>
+  <name>visualization_tutorials</name>
+  <version>0.7.5</version>
+  <description>Tutorials related to the visualization stack such as Marker tutorials</description>
+  
+  <author email="hersh@willowgarage.com">Dave Hershberger</author>
+  <author email="gossow@willowgarage.com">David Gossow</author>
+
+  <maintainer email="hersh@willowgarage.com">Dave Hershberger</maintainer>
+  <maintainer email="gossow@willowgarage.com">David Gossow</maintainer>
+
+  <license>BSD</license>
+
+
+  <url type="website">http://ros.org/wiki/visualization_tutorials</url>
+  <url type="repository">https://github.com/ros-visualization/visualization_tutorials</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>librviz_tutorial</run_depend>
+  <run_depend>rviz_python_tutorial</run_depend>
+  <run_depend>interactive_marker_tutorials</run_depend>
+  <run_depend>visualization_marker_tutorials</run_depend>
+  <run_depend>rviz_plugin_tutorials</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
